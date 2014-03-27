@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cityline.peter.test.ejb</groupId>
+  <artifactId>cityline.peter.test.ejb.client</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>ejbTestClient</name>
+
+ <dependencies>
+ 
+         
+         <dependency>
+	<groupId>org.wildfly</groupId>
+	<artifactId>wildfly-ejb-client-bom</artifactId>
+	<version>8.0.0.Final</version>
+	<type>pom</type>
+</dependency>
+         
+         
+	 <dependency>
+	 	<groupId>cityline.peter.ejb</groupId>
+	 	<artifactId>cityline.peter.ejb</artifactId>
+	 	<version>0.0.1-SNAPSHOT</version>
+	 	<type>ejb</type>
+	 </dependency>
+ </dependencies>
+  
+</project>
